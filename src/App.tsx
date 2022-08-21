@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './scss/global.scss';
-import Header from './components/Header/Header';
+import Header from './components/Header';
 import Home from './pages/Home';
 
-function App() {
+const App: FC = () => {
   return (
     <>
       <Header />
@@ -13,6 +13,6 @@ function App() {
       </Routes>
     </>
   );
-}
+};
 
 export default App;
