@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { FC } from 'react';
+
 import style from './Header.module.scss';
 
-function Header() {
+const Header: FC = () => {
   return (
     <div className={style.header}>
       <div className="section-container">
@@ -9,6 +10,6 @@ function Header() {
       </div>
     </div>
   );
-}
+};
 
 export default Header;
