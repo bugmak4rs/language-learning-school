@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import style from './Header.module.scss';
+import style from './style.module.scss';
 
 const Header: FC = () => {
   return (
