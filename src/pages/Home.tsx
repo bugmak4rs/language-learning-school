@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { FC } from 'react';
 import Hero from '../components/Hero';
 
-function Home() {
+const Home: FC = () => {
   return (
     <div>
       <div className="section-container">
@@ -10,6 +10,6 @@ function Home() {
       </div>
     </div>
   );
-}
+};
 
 export default Home;
