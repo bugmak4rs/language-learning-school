@@ -6,6 +6,7 @@ function Home() {
     <div>
       <div className="section-container">
         <Hero />
+        <p>Hello, world!</p>
       </div>
     </div>
   );
