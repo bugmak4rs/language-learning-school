@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+img,
+picture,
+svg {
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.section-container {
+  margin: 0 auto;
+  max-width: 320px;
+
+  @media (min-width: 1440px) {
+    max-width: 1110px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 824px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 540px;
+  }
+}
