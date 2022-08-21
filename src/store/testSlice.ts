@@ -1,8 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const test = {
-  test: 'test ASASASASASASAS'
-};
+const test = 'test ASASASASASASAS';
 
 type TinitialState = {
   test: typeof test;
