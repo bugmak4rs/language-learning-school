@@ -1,2 +1,5 @@
+@import '../../scss/mixins.scss';
+
 .language {
+  @include section_container;
 }

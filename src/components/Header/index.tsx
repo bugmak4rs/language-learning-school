@@ -3,13 +3,7 @@ import React, { FC } from 'react';
 import style from './style.module.scss';
 
 const Header: FC = () => {
-  return (
-    <div className={style.header}>
-      <div className="section-container">
-        <p>Header</p>
-      </div>
-    </div>
-  );
+  return <div className={style.header}>Header</div>;
 };
 
 export default Header;

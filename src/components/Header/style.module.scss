@@ -1,3 +1,7 @@
+@import '../../scss/mixins.scss';
+
 .header {
+  @include section_container;
+
   background: var(--bg-hero);
 }

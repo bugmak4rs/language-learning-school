@@ -7,15 +7,13 @@ import Schools from '../components/Schools';
 
 const Home: FC = () => {
   return (
-    <div>
-      <div className="section-container">
-        <Hero />
-        <AboutUs />
-        <EducationalVideos />
-        <Language />
-        <Schools />
-      </div>
-    </div>
+    <>
+      <Hero />
+      <AboutUs />
+      <EducationalVideos />
+      <Language />
+      <Schools />
+    </>
   );
 };
 

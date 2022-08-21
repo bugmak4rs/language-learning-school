@@ -1,0 +1,18 @@
+@mixin section_container {
+  margin: 0 auto;
+  max-width: 320px;
+
+  @media (min-width: 768px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 824px;
+  }
+
+  @media (min-width: 1440px) {
+    max-width: 1110px;
+  }
+
+  @content;
+}

@@ -1,2 +1,5 @@
+@import '../../scss/mixins.scss';
+
 .hero {
+  @include section_container;
 }
