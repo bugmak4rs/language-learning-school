@@ -1,5 +1,43 @@
 @import '../../scss/mixins.scss';
 
 .aboutUs {
+  @include offset;
+  background-color: var(--b-color);
+}
+
+.container {
   @include section_container;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 120%;
+  color: var(--w-color);
+}
+
+.text {
+  margin: 30px 0 0 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: var(--w-color);
+}
+
+.list {
+  padding: 0 0 0 30px;
+  margin: 20px 0 0 0;
+  list-style: inside;
+  list-style-position: outside;
+
+  li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--w-color);
+  }
+
+  li:not(:first-child) {
+    margin: 10px 0 0 0;
+  }
 }
