@@ -1,0 +1,9 @@
+@import '../../scss/mixins.scss';
+
+.offset {
+  padding: 40px;
+}
+
+.container {
+  @include section_container;
+}
