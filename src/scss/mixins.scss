@@ -16,3 +16,19 @@
 
   @content;
 }
+
+@mixin offset {
+  padding: 40px 0;
+
+  @media (min-width: 768px) {
+    padding: 60px 0;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 80px 0;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 80px 0;
+  }
+}
