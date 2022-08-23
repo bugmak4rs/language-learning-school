@@ -9,9 +9,9 @@ const Home: FC = () => {
   return (
     <>
       <Hero />
+      <Language />
       <AboutUs />
       <EducationalVideos />
-      <Language />
       <Schools />
     </>
   );
