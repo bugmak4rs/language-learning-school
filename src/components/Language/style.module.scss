@@ -1,5 +1,41 @@
 @import '../../scss/mixins.scss';
 
 .language {
+  @include offset;
+}
+
+.container {
   @include section_container;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 120%;
+  color: var(--pink-color);
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 0 0;
+
+  button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 220px;
+
+    img {
+      width: 220px;
+      height: 150px;
+    }
+
+    span {
+      margin: 10px 0 0 0;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 120%;
+    }
+  }
 }
