@@ -1,5 +1,44 @@
 @import '../../scss/mixins.scss';
 
 .hero {
+  padding: 160px 0;
+  background: var(--bg-hero);
+}
+
+.container {
   @include section_container;
+}
+
+.greeting {
+  margin: 0 0 20px 0;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 120%;
+  color: var(--w-color);
+}
+
+.progress {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: var(--w-color);
+
+  a {
+    color: var(--g-color);
+    transition: all 0.3s ease;
+  }
+
+  a:hover {
+    color: var(--w-color);
+  }
+
+  a:focus-visible {
+    border: none;
+    outline: none;
+    color: var(--w-color);
+  }
+
+  a:active {
+    color: var(--g-color);
+  }
 }
