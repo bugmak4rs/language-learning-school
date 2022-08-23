@@ -1,2 +1,7 @@
 @import './variables.scss';
 @import './normalize.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
