@@ -5,7 +5,7 @@ This web application will be created so that people can learn the language in a 
 
 At this moment, the design for the site is being done, the skeleton of the site is made, THE DESIGN THAT IS NOW ON THE SITE IS JUST A TEST LAYOUT.
 
-After creating the Front End, we are thinking of creating a small Back End and making a full-fledged offer. For now, we will use Mock API instead of Back End.
+After creating the Front End, we are thinking of creating a small Back End and making a full-fledged application. For now, we will use Mock API instead of Back End.
 
 ## How to run a project locally:
 
