@@ -2,7 +2,7 @@
 
 .hero {
   padding: 160px 0;
-  background: var(--bg-hero);
+  background: var(--w-hero);
 }
 
 .container {
@@ -14,14 +14,14 @@
   font-weight: 800;
   font-size: 64px;
   line-height: 120%;
-  color: var(--w-color);
+  color: var(--b-color);
 }
 
 .progress {
   font-weight: 500;
   font-size: 24px;
   line-height: 120%;
-  color: var(--w-color);
+  color: var(--b-color);
 
   a {
     color: var(--g-color);
@@ -29,13 +29,13 @@
   }
 
   a:hover {
-    color: var(--w-color);
+    color: var(--b-color);
   }
 
   a:focus-visible {
     border: none;
     outline: none;
-    color: var(--w-color);
+    color: var(--r-color);
   }
 
   a:active {

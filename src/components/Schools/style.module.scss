@@ -2,7 +2,7 @@
 
 .schools {
   @include offset;
-  background-color: var(--b-color);
+  background-color: var(--w-color);
 }
 
 .container {
@@ -13,7 +13,7 @@
   font-weight: 700;
   font-size: 46px;
   line-height: 120%;
-  color: var(--w-color);
+  color: var(--b-color);
 }
 
 .card {
@@ -26,14 +26,14 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 300px;
-    border: 1px solid var(--w-color);
+    border: 1px solid var(--b-color);
 
     span {
       padding: 50px;
       font-weight: 500;
       font-size: 32px;
       line-height: 120%;
-      color: var(--w-color);
+      color: var(--b-color);
     }
   }
 }

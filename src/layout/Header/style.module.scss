@@ -1,7 +1,7 @@
 @import '../../scss/mixins.scss';
 
 .header {
-  background-color: var(--w-color);
+  background-color: var(--b-color);
 }
 
 .container {
@@ -13,28 +13,9 @@
 
 .nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
-
-  a {
-    color: var(--b-color);
-    transition: color 0.3s ease;
-  }
-
-  a:hover {
-    color: var(--g-color);
-  }
-
-  a:focus-visible {
-    border: none;
-    outline: 1px solid var(--b-color);
-    outline-offset: 5px;
-    color: var(--b-color);
-  }
-
-  a:active {
-    color: var(--g-color);
-  }
 }
 
 .team {

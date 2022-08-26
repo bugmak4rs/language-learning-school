@@ -2,6 +2,7 @@
 
 .educationalVideos {
   @include offset;
+  background-color: var(--b-color);
 }
 
 .container {
@@ -22,5 +23,5 @@
   font-weight: 700;
   font-size: 46px;
   line-height: 120%;
-  color: var(--b-color);
+  color: var(--w-color);
 }

@@ -2,6 +2,7 @@
 
 .language {
   @include offset;
+  background-color: var(--b-color);
 }
 
 .container {
@@ -12,7 +13,7 @@
   font-weight: 700;
   font-size: 46px;
   line-height: 120%;
-  color: var(--pink-color);
+  color: var(--w-color);
 }
 
 .card {
@@ -24,18 +25,13 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 220px;
-
-    img {
-      width: 220px;
-      height: 150px;
-    }
 
     span {
       margin: 10px 0 0 0;
       font-weight: 500;
       font-size: 32px;
       line-height: 120%;
+      color: var(--w-color);
     }
   }
 }

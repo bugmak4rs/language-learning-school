@@ -2,7 +2,7 @@
 
 .aboutUs {
   @include offset;
-  background-color: var(--b-color);
+  background-color: var(--w-color);
 }
 
 .container {
@@ -13,7 +13,7 @@
   font-weight: 700;
   font-size: 46px;
   line-height: 120%;
-  color: var(--w-color);
+  color: var(--b-color);
 }
 
 .text {
@@ -21,7 +21,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 120%;
-  color: var(--w-color);
+  color: var(--b-color);
 }
 
 .list {
@@ -34,7 +34,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
-    color: var(--w-color);
+    color: var(--b-color);
   }
 
   li:not(:first-child) {
