@@ -1,0 +1,105 @@
+@import '../../scss/mixins.scss';
+
+.how {
+  @include offset;
+  background-color: var(--blue-color);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include section_container;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--w-color);
+}
+
+.progress {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0 0 0;
+  width: 924px;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 117px;
+    height: 117px;
+    border-radius: 100%;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 120%;
+    text-align: center;
+    background-color: var(--w-color);
+    z-index: 5;
+  }
+}
+
+.first {
+  color: var(--p-color);
+}
+
+.second {
+  color: var(--green-color);
+}
+
+.third {
+  color: var(--yellow-color);
+}
+
+.board {
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  background-color: var(--w-color);
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0 0 0;
+  width: 1050px;
+
+  p {
+    width: 333px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--w-color);
+
+    &:first-child {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    &:last-child {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.homework {
+  display: flex;
+  align-items: center;
+  margin: 60px 0 0 0;
+
+  p {
+    margin: 0 10px 0 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #ffffff;
+  }
+}
