@@ -1,16 +1,21 @@
 @import '../../scss/mixins.scss';
 
 .hero {
-  padding: 160px 0;
-  background: var(--w-hero);
+  padding: 175px 0;
+  background: var(--w-color);
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   @include section_container;
+  height: 410px;
+  background: url('../../assets/img/hero.png') no-repeat right center;
 }
 
 .greeting {
-  margin: 0 0 20px 0;
+  margin: 0 0 80px 0;
   font-weight: 800;
   font-size: 64px;
   line-height: 120%;
@@ -18,27 +23,48 @@
 }
 
 .progress {
-  font-weight: 500;
-  font-size: 24px;
+  margin: 0 0 20px 0;
+  font-weight: 400;
+  font-size: 36px;
   line-height: 120%;
   color: var(--b-color);
+}
 
-  a {
-    color: var(--g-color);
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 40px;
+  width: 380px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 120%;
+  color: var(--w-color);
+  background-color: var(--p-color);
+
+  svg {
     transition: all 0.3s ease;
   }
+}
 
-  a:hover {
-    color: var(--b-color);
+.link:hover {
+  svg {
+    transform: translateX(15px);
   }
+}
 
-  a:focus-visible {
-    border: none;
-    outline: none;
-    color: var(--r-color);
+.link:focus-visible {
+  border: none;
+  outline: none;
+
+  svg {
+    transform: rotate(360deg);
   }
+}
 
-  a:active {
-    color: var(--g-color);
+.link:active {
+  svg {
+    transform: translateX(-5px);
   }
 }
