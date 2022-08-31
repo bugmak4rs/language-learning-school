@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
 import AboutUs from '../components/AboutUs';
-import EducationalVideos from '../components/EducationalVideos';
+import How from '../components/How';
 import Hero from '../components/Hero';
 import Language from '../components/Language';
-import Schools from '../components/Schools';
+import Info from '../components/Info';
 
 const Home: FC = () => {
   return (
@@ -11,8 +11,8 @@ const Home: FC = () => {
       <Hero />
       <Language />
       <AboutUs />
-      <EducationalVideos />
-      <Schools />
+      <How />
+      <Info />
     </>
   );
 };
