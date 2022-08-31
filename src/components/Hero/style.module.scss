@@ -42,29 +42,38 @@
   line-height: 120%;
   color: var(--w-color);
   background-color: var(--p-color);
+  transition: all 0.3s ease;
 
   svg {
     transition: all 0.3s ease;
   }
 }
 
-.link:hover {
-  svg {
-    transform: translateX(15px);
+.link {
+  &:hover {
+    svg {
+      transform: translateX(15px);
+    }
+
+    background-color: var(--green-color);
   }
-}
 
-.link:focus-visible {
-  border: none;
-  outline: none;
+  &:focus-visible {
+    border: none;
+    outline: none;
 
-  svg {
-    transform: rotate(360deg);
+    svg {
+      transform: rotate(360deg);
+    }
+
+    background-color: var(--yellow-color);
   }
-}
 
-.link:active {
-  svg {
-    transform: translateX(-5px);
+  &:active {
+    svg {
+      transform: translateX(-5px);
+    }
+
+    background-color: var(--blue-color);
   }
 }
