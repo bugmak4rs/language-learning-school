@@ -1,7 +1,8 @@
 @import '../../scss/mixins.scss';
 
 .header {
-  background-color: var(--b-color);
+  background-color: var(--w-color);
+  border-bottom: 2px solid var(--b-color);
 }
 
 .container {
@@ -16,8 +17,4 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-}
-
-.team {
-  margin: 0 20px 0 0;
 }
