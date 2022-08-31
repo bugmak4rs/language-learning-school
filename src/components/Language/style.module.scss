@@ -2,7 +2,7 @@
 
 .language {
   @include offset;
-  background-color: var(--b-color);
+  background-color: var(--blue-color);
 }
 
 .container {
@@ -10,8 +10,12 @@
 }
 
 .title {
-  font-weight: 700;
-  font-size: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 48px;
   line-height: 120%;
   color: var(--w-color);
 }
@@ -20,18 +24,53 @@
   display: flex;
   justify-content: space-between;
   margin: 30px 0 0 0;
+}
 
-  button {
+.choice {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 70px 60px 70px;
+  border-radius: 20px;
+  background: #f5f5f5;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px var(--b-color);
+  }
+
+  &__language {
+    margin: 0 0 50px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    text-align: center;
+    color: var(--b-color);
+  }
 
-    span {
-      margin: 10px 0 0 0;
-      font-weight: 500;
-      font-size: 32px;
-      line-height: 120%;
-      color: var(--w-color);
-    }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__amount {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: var(--p-color);
+  }
+
+  &__modules {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--p-color);
   }
 }
