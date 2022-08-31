@@ -1,0 +1,17 @@
+@import '../../scss/mixins.scss';
+
+.info {
+  @include offset;
+  background-color: var(--w-color);
+}
+
+.container {
+  @include section_container;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--b-color);
+}
