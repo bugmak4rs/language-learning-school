@@ -23,7 +23,7 @@ const Language: FC = () => {
             <img src={spain} alt="Флаг Испании" />
             <span className={style.choice__language}>Испанский</span>
             <div className={style.choice__info}>
-              <span className={style.choice__amount}>20</span>
+              <span className={style.choice__amount}>13</span>
               <span className={style.choice__modules}>модулей</span>
             </div>
           </button>
@@ -31,7 +31,7 @@ const Language: FC = () => {
             <img src={japan} alt="Флаг Японии" />
             <span className={style.choice__language}>Японский</span>
             <div className={style.choice__info}>
-              <span className={style.choice__amount}>20</span>
+              <span className={style.choice__amount}>16</span>
               <span className={style.choice__modules}>модулей</span>
             </div>
           </button>
