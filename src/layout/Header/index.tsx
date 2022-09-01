@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { Link } from 'react-router-dom';
 
 import style from './style.module.scss';
 
@@ -7,7 +8,7 @@ const Header: FC = () => {
     <header className={style.header}>
       <div className={style.container}>
         <nav className={style.nav}>
-          <a href="/" className={style.logo}>
+          <Link to={'/'} className={style.logo}>
             <svg
               width="106"
               height="23"
@@ -20,8 +21,8 @@ const Header: FC = () => {
                 fill="#101010"
               />
             </svg>
-          </a>
-          <button>
+          </Link>
+          <button className={style.burger} arial-label="Всплывающие меню" tabIndex={0}>
             <svg
               width="30"
               height="24"
