@@ -1,0 +1,14 @@
+@import '../../scss/mixins.scss';
+
+.offset {
+  padding: 40px 0 80px 0;
+}
+
+.container {
+  @include section_container;
+}
+
+.direction {
+  display: flex;
+  justify-content: center;
+}
