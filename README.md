@@ -3,9 +3,9 @@ This web application will be created so that people can learn the language in a 
 
 ## Project status
 
-At this moment, the design for the site is being done, the skeleton of the site is made, THE DESIGN THAT IS NOW ON THE SITE IS JUST A TEST LAYOUT.
+At the moment, the design has been made and we have begun to develop the Front End, so we come up with what the modules in different languages will be filled with.
 
-After creating the Front End, we are thinking of creating a small Back End and making a full-fledged application. For now, we will use Mock API instead of Back End.
+We are also thinking of making an admin panel where you can add, edit, remove modules for different languages.
 
 ## How to run a project locally:
 
