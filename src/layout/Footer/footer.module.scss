@@ -1,10 +1,97 @@
 @import '../../scss/mixins.scss';
 
 .offset {
-  padding: 40px;
-  background-color: var(--b-color);
+  padding: 60px 0 20px 0;
+  border-top: 2px solid #000000;
+  background-color: var(--w-color);
 }
 
 .container {
   @include section_container;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+
+  ul {
+    &:not(:first-child) {
+      margin: 0 0 0 64px;
+    }
+
+    li {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 120%;
+      color: var(--b-color);
+    }
+  }
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 130px 0 0 0;
+
+  ul {
+    display: flex;
+    align-items: center;
+
+    li:not(:first-child) {
+      margin: 0 0 0 25px;
+    }
+
+    li {
+      a {
+        svg {
+          path {
+            transition: all 0.3s ease;
+          }
+        }
+      }
+
+      a:hover {
+        svg {
+          path {
+            fill: var(--blue-color);
+          }
+        }
+      }
+
+      a:focus-visible {
+        svg {
+          path {
+            fill: var(--blue-color);
+          }
+        }
+      }
+
+      a:active {
+        svg {
+          path {
+            fill: var(--green-color);
+          }
+        }
+      }
+    }
+  }
+
+  span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--b-color);
+  }
+}
+
+.politics {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--b-color);
 }
