@@ -1,0 +1,102 @@
+@import '../../scss/mixins.scss';
+
+.offset {
+  padding: 40px 0 80px 0;
+}
+
+.container {
+  @include section_container;
+}
+
+.form {
+  padding-inline: 35px;
+  padding-block: 47px;
+
+  border-radius: 20px;
+  background-color: var(--blue-color);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 53px;
+  column-gap: 42px;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: var(--w-color);
+
+    span {
+      color: red;
+    }
+  }
+
+  input {
+    padding: 14px 26px;
+    border-radius: 30px;
+
+    border: none;
+    outline: none;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  textarea {
+    min-height: 120px;
+    padding: 14px 26px;
+    border-radius: 30px;
+
+    resize: none;
+    border: none;
+    outline: none;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  &__whylearn {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+  &__notification {
+    max-width: 650px;
+    padding-block: 8px 22px;
+    margin-inline: auto;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  &__submit {
+    max-width: 200px;
+    margin-inline-start: auto;
+    padding: 13px 45px;
+    border-radius: 25px;
+
+    grid-column-start: 2;
+    grid-column-end: -1;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--w-color);
+    background-color: var(--yellow-color);
+
+    transition: all 0.2s ease-out;
+
+    &:hover {
+      background-color: var(--green-color);
+    }
+  }
+}

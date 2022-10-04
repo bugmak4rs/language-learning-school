@@ -1,0 +1,35 @@
+.heading {
+  padding-block: 40px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--b-color);
+  }
+
+  &__button {
+    padding: 13px 36px;
+
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--w-color);
+    background-color: var(--blue-color);
+
+    transition: all 0.2s ease-out;
+
+    &:hover {
+      background-color: var(--yellow-color);
+    }
+  }
+}
